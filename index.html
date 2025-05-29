@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Gym Membership CRUD</title>
+
+</head>
+
+<body>
+<div class="container header">
+    <div class="row">
+        <div class="col-md-8 offset-2">
+            <form  id="form"><input type="text" id="username" class="form-control" placeholder="Enter UserName"></form>
+        </div>
+    </div>
+</div>
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-6 offset-3 mt-5" id="cardcontainer">
+            <div class="card">
+                <div class="card-body">
+                    <figure>
+                        <div class="logoimg">
+                            <img src="https://avatars.githubusercontent.com/u/1?v=4" alt="">
+                        </div>
+                    </figure>
+                        <h4 class="text-center">Ravi</h4>
+                    <div class="info d-flex justify-content-around mt-3">
+                        <span>Followers : 54</span>
+                        <span>Following: 100</span>
+                        <span>Repos: 49</span>
+                    </div>
+                    <h6 class="text-center mt-4">
+                        Recent Repositories
+                    </h6>
+                    <div class="repos my-4">
+                        <div class="repo3 d-flex justify-content-around"> <a target="_blank" href="https://github.com/AatifMalakji/All-CRUD">All-CRUD</a>
+                        <a href="https://github.com/AatifMalakji/All-CRUD" target="_blank">All-CRUD</a>
+                        <a href="https://github.com/AatifMalakji/All-CRUD" target="_blank">All-CRUD</a>
+                    </div>
+                       <div class="repo2 d-flex justify-content-around">
+                        <a href="https://github.com/AatifMalakji/All-CRUD" target="_blank">All-CRUD</a>
+                        <a href="https://github.com/AatifMalakji/All-CRUD" target="_blank">All-CRUD</a>
+
+                       </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="loader d-none" id="loader">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+
+body{
+    background-color: #684ba6;
+}
+
+.header{
+    margin-top: 300px;
+}
+.header input,.header input:is(:focus, :active){
+    background-color: inherit;
+    height: 40px;
+    color: white;
+}
+.header input::placeholder{
+    color: white;
+}
+.card{
+    background-color: #3a2763;
+    color: white
+}
+
+.card figure img{
+    height: 150px;
+    width: 150px;
+    border-radius: 87px;
+}
+
+.card figure .logoimg{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.repos a{
+    border: 0.1px solid #593d96;
+    border-radius: 40px;
+    display: inline-block;
+    width: 112px;
+    height: 45px;
+    text-align: center;
+    line-height: 43px;
+    overflow: hidden;
+    margin: 10px;
+}
+.repos .repo2{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
