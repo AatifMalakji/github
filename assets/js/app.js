@@ -73,7 +73,7 @@ cardcontainer.innerHTML = `<div class="card">
                     </div>
                 </div>
             </div>`
-
+window.scrollTo({top: 0, behavior: 'smooth'})
             form.reset()
     }catch(err){
         snackbar(err,'error')
